@@ -258,7 +258,7 @@
       </div>
       <h1>Privacy Policy</h1>
       <div class="meta-text">
-        <span>Effective Date: August 31, 2026</span> • <span>Package: com.soundshare.soundshare</span>
+        <span>Effective Date: October 23, 2026</span> • <span>Package: com.soundshare.soundshare</span>
       </div>
     </header>
 
@@ -267,7 +267,7 @@
       <div class="highlight-box">
         <div>🛡️</div>
         <div>
-          <strong>Privacy-First Guarantee:</strong> SoundShare operates 100% on-device. We do <strong>not</strong> collect, track, store, or sell any personal data or audio recordings.
+          <strong>In short:</strong> your audio is never recorded, stored, or uploaded — it only travels over your own Wi-Fi or hotspot to the devices you invite. SoundShare is free and supported by ads from Google AdMob, and uses Google Firebase Analytics to understand how the app is used. We never sell your data.
         </div>
       </div>
 
@@ -276,24 +276,25 @@
         Overview
       </h2>
       <p>
-        SoundShare ("we", "our", or "the App") is developed to give you full control over Bluetooth audio sharing and 3D spatial sound. This Privacy Policy explains our commitment to zero data collection and transparent device permission usage.
+        SoundShare ("we", "our", or "the App"), published by Quick Media Solution, lets you share your phone's audio with Bluetooth headphones and with friends' devices on the same Wi-Fi network. This Privacy Policy explains what data is processed, by whom, and the choices you have.
       </p>
 
       <h2>
         <span class="icon-badge">2</span>
-        Information We Do NOT Collect
+        Information We Collect and How It Is Used
       </h2>
       <ul>
-        <li><strong>No Personal Information:</strong> We do not collect names, email addresses, phone numbers, or account details.</li>
-        <li><strong>No Audio Logging or Recording:</strong> We never record, save, upload, or transmit your audio streams or microphone feeds.</li>
-        <li><strong>No Telemetry or Tracking:</strong> There are zero third-party tracking cookies or ad networks embedded in SoundShare.</li>
+        <li><strong>No account or personal details:</strong> SoundShare has no sign-up. We do not ask for your name, email address, phone number, or contacts.</li>
+        <li><strong>Your audio stays private:</strong> When you use Wi-Fi sharing, the sound playing on your phone is captured in memory and sent directly over your local Wi-Fi or hotspot to the browsers of people you invite. It is never recorded, saved, or sent to us or any server.</li>
+        <li><strong>Advertising (Google AdMob):</strong> To show and measure ads, Google may collect your device's advertising ID, IP address (which gives an approximate location), device and app information, and ad interactions. Ads may be personalised where you have agreed to it.</li>
+        <li><strong>App analytics (Google Firebase Analytics):</strong> We receive anonymous usage statistics such as which features are used, session length, app version, device model, and crashes, linked to a random app-instance ID — not to your identity.</li>
       </ul>
 
       <h2>
         <span class="icon-badge">3</span>
         Device Permissions & Why We Need Them
       </h2>
-      <p>SoundShare requests only standard Android permissions strictly necessary to operate audio streaming and haptic feedback:</p>
+      <p>SoundShare requests only the Android permissions needed for audio sharing, ads and analytics:</p>
 
       <div class="permission-grid">
         <div class="permission-item">
@@ -302,18 +303,23 @@
         </div>
 
         <div class="permission-item">
-          <div class="permission-title">🎙️ Audio Capture (`RECORD_AUDIO`)</div>
-          <p class="permission-desc">Used strictly in real-time RAM for BeatSync rhythm and frequency transient detection. Audio buffers are processed ephemerally in memory and immediately discarded without being stored or transmitted.</p>
+          <div class="permission-title">🎙️ Audio Capture (`RECORD_AUDIO`) & Screen Audio Sharing</div>
+          <p class="permission-desc">Android requires this permission, plus your confirmation in its "start sharing" dialog, before an app can capture the sound other apps are playing. SoundShare uses it only while you are sharing over Wi-Fi, to stream that sound to the devices you invite. The microphone is never used and nothing is stored.</p>
         </div>
 
         <div class="permission-item">
-          <div class="permission-title">⚡ Foreground Service (`FOREGROUND_SERVICE_MEDIA_PLAYBACK`)</div>
-          <p class="permission-desc">Ensures uninterrupted Bluetooth audio sharing and background spatial audio processing when your screen is locked or while multitasking.</p>
+          <div class="permission-title">⚡ Foreground Service (`FOREGROUND_SERVICE_MEDIA_PLAYBACK`, `FOREGROUND_SERVICE_MEDIA_PROJECTION`)</div>
+          <p class="permission-desc">Keeps sharing running while your screen is locked or you use other apps, and shows an ongoing notification so you always know sharing is active.</p>
+        </div>
+
+        <div class="permission-item">
+          <div class="permission-title">🌐 Internet & Network State (`INTERNET`, `ACCESS_NETWORK_STATE`)</div>
+          <p class="permission-desc">Used to stream audio to devices on your local network, to load ads, and to send anonymous analytics.</p>
         </div>
 
         <div class="permission-item">
           <div class="permission-title">📳 Vibration (`VIBRATE`)</div>
-          <p class="permission-desc">Delivers tactile, audio-synchronized haptic feedback in time with musical beats and bass drops.</p>
+          <p class="permission-desc">Gives a light tap of feedback when you press buttons in the app.</p>
         </div>
 
         <div class="permission-item">
@@ -324,22 +330,47 @@
 
       <h2>
         <span class="icon-badge">4</span>
-        Third-Party Services & Advertising
+        Third-Party Services & Your Choices
       </h2>
-      <p>
-        SoundShare contains <strong>no third-party advertising SDKs, ad-trackers, or data brokers</strong>. All spatial DSP and beat detection algorithms execute natively on your Android device.
-      </p>
+      <p>SoundShare uses these Google services, each governed by Google's own privacy policy:</p>
+      <ul>
+        <li><strong>Google AdMob</strong> — ads. <a href="https://policies.google.com/technologies/partner-sites">How Google uses data from apps that use its services</a>.</li>
+        <li><strong>Google Firebase Analytics</strong> — usage statistics. <a href="https://firebase.google.com/support/privacy">Firebase privacy information</a>.</li>
+        <li><strong>Google Play services</strong> — in-app reviews and updates.</li>
+      </ul>
+      <p>Your choices:</p>
+      <ul>
+        <li>In the EU, EEA and UK you are asked for consent before personalised ads are shown, and you can change it any time in <strong>Settings → Ad privacy options</strong> inside the app.</li>
+        <li>You can reset or delete your advertising ID in Android <strong>Settings → Privacy → Ads</strong>.</li>
+        <li>Uninstalling SoundShare stops all data collection by the app. To ask about data held by Google, use <a href="https://myaccount.google.com/data-and-privacy">Google's privacy controls</a>.</li>
+      </ul>
 
       <h2>
         <span class="icon-badge">5</span>
-        Children's Privacy
+        Data Retention & Security
       </h2>
       <p>
-        SoundShare does not collect any personal data and is completely safe for all audiences, fully complying with COPPA and Google Play family policies.
+        Shared audio exists only in memory for the moment it is streamed and is never retained. Analytics data is kept by Google for up to 14 months. Data sent to Google is encrypted in transit.
       </p>
 
       <h2>
         <span class="icon-badge">6</span>
+        Children's Privacy
+      </h2>
+      <p>
+        SoundShare is not directed at children under 13 and we do not knowingly collect personal information from them. If you believe a child has provided information through the app, contact us and we will help remove it.
+      </p>
+
+      <h2>
+        <span class="icon-badge">7</span>
+        Changes to This Policy
+      </h2>
+      <p>
+        We will update this page when our practices change and revise the effective date above.
+      </p>
+
+      <h2>
+        <span class="icon-badge">8</span>
         Contact Us
       </h2>
       <p>
